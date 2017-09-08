@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DictionaryConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://DictionaryConfig.com">
+    <Pronunciation>
+      <Sites>
+        <PrSite>
+            <Url><![CDATA[http://dictionary.cambridge.org/dictionary/english/]]></Url>
+            <!-- Patterns order, set use priority -->
+            <Patterns>
+            
+              <PrPattern Lang="UK" Type="WORD" IdxPrGroup="0" CleanResult="true" SearchTextFound="false">                
+                <CleanPattern>
+                  <![CDATA[<span class="sp">|</span>]]>
+                </CleanPattern>
+                <TextFoundPatter>
+                  <![CDATA[""]]>
+                </TextFoundPatter>
+                <TextFoundNormPatter>
+                  <![CDATA[\+|%20]]>
+                </TextFoundNormPatter>
+                <TextFoundNormReplace>
+                  <![CDATA[ ]]>
+                </TextFoundNormReplace>
+                <RegularEx><![CDATA[pron-region="UK" class="pron-info"><span class="uk"><span class="region">uk</span> <span title="[\w]+[^\r\n]+[\r\n]+.*span class="ipa">(.+)</span>\s*/]]>
+                </RegularEx>
+              </PrPattern>
+                                       
+              <PrPattern Lang="UK" Type="STRONG_WORD" IdxPrGroup="0" CleanResult="true" SearchTextFound="false">
+                <CleanPattern>
+                  <![CDATA[<span class="sp">|</span>]]>
+                </CleanPattern>
+                <TextFoundPatter>
+                  <![CDATA[""]]>
+                </TextFoundPatter>
+                <TextFoundNormPatter>
+                  <![CDATA[\+|%20]]>
+                </TextFoundNormPatter>
+                <TextFoundNormReplace>
+                  <![CDATA[ ]]>
+                </TextFoundNormReplace>
+                <RegularEx>
+                    <![CDATA[class="lab">strong</span> /<span class="ipa">(.+)<span class="pron-info"><span class="uk"><span class="pron"><span title="]]>
+                </RegularEx>
+              </PrPattern>
+              
+              <PrPattern Lang="US" Type="WORD" IdxPrGroup="0" CleanResult="true" SearchTextFound="false">
+                <CleanPattern>
+                  <![CDATA[<span class="sp">|</span>]]>
+                </CleanPattern>
+                <TextFoundPatter>
+                  <![CDATA[""]]>
+                </TextFoundPatter>
+                <TextFoundNormPatter>
+                  <![CDATA[\+|%20]]>
+                </TextFoundNormPatter>
+                <TextFoundNormReplace>
+                  <![CDATA[ ]]>
+                </TextFoundNormReplace>
+                <RegularEx>
+                    <![CDATA[pron-region="US" class="pron-info"><span class="us"><span class="region">us</span> <span title="[\w]+[^\r\n]*[\r\n]+.*span class="ipa">(.+)<span pron-region]]>
+                </RegularEx>
+              </PrPattern>
+              
+              <PrPattern Lang="UK" Type="PHRASAL" IdxPrGroup="0" CleanResult="true" SearchTextFound="false">
+                <CleanPattern>
+                  <![CDATA[<span class="sp">|</span>]]>
+                </CleanPattern>
+                <TextFoundPatter>
+                  <![CDATA[""]]>
+                </TextFoundPatter>
+                <TextFoundNormPatter>
+                  <![CDATA[\+|%20]]>
+                </TextFoundNormPatter>
+                <TextFoundNormReplace>
+                  <![CDATA[ ]]>
+                </TextFoundNormReplace>
+                <RegularEx>
+                    <![CDATA[pron-region="UK" class="pron-info"><span class="uk"><span class="region">uk</span> <span title="[\w]+-[\w]+[^\r\n]*[\r\n]+.*span class="ipa">(.+)<span pron-region]]>
+                </RegularEx>
+              </PrPattern>
+              
+              <PrPattern Lang="US" Type="PHRASAL" IdxPrGroup="0" CleanResult="true" SearchTextFound="false">
+                <CleanPattern>
+                  <![CDATA[<span class="sp">|</span>]]>
+                </CleanPattern>
+                <TextFoundPatter>
+                  <![CDATA[""]]>
+                </TextFoundPatter>
+                <TextFoundNormPatter>
+                  <![CDATA[\+|%20]]>
+                </TextFoundNormPatter>
+                <TextFoundNormReplace>
+                  <![CDATA[ ]]>
+                </TextFoundNormReplace>
+                <RegularEx>
+                <![CDATA[pron-region="US" class="pron-info"><span class="us"><span class="region">us</span> <span title="[\w]+-[\w]+[^\r\n]*[\r\n]+.*span class="ipa">(.+)<span pron-region]]>
+                </RegularEx>              
+              </PrPattern>
+              
+               <PrPattern Lang="GENERIC" Type="GENERIC" IdxPrGroup="0" CleanResult="true" SearchTextFound="false">
+                <CleanPattern>
+                  <![CDATA[<span class="sp">|</span>]]>
+                </CleanPattern>
+                 <TextFoundPatter>
+                   <![CDATA[""]]>
+                 </TextFoundPatter>
+                 <TextFoundNormPatter>
+                   <![CDATA[\+|%20]]>
+                 </TextFoundNormPatter>
+                 <TextFoundNormReplace>
+                   <![CDATA[ ]]>
+                 </TextFoundNormReplace>
+
+                 <RegularEx>
+                    <![CDATA[class="lab">strong</span> /<span class="ipa">(.+)<span class="pron-info"]]>
+                </RegularEx>
+              </PrPattern>
+              
+              <PrPattern Lang="GENERIC" Type="GENERIC" IdxPrGroup="0" CleanResult="true" SearchTextFound="false">
+                <CleanPattern>
+                  <![CDATA[<span class="sp">|</span>]]>
+                </CleanPattern>
+                <TextFoundPatter>
+                  <![CDATA[""]]>
+                </TextFoundPatter>
+                <TextFoundNormPatter>
+                  <![CDATA[\+|%20]]>
+                </TextFoundNormPatter>
+                <TextFoundNormReplace>
+                  <![CDATA[ ]]>
+                </TextFoundNormReplace>
+
+                <RegularEx>
+                    <![CDATA[class="lab">strong</span> /<span class="ipa">(.+)[\r\n]+]]>
+                </RegularEx>
+              </PrPattern>
+
+            </Patterns>
+        </PrSite>
+        <PrSite>
+            <Url><![CDATA[http://www.macmillandictionary.com/dictionary/british/]]></Url>
+            <Patterns>
+              <PrPattern Lang="GENERIC" Type="GENERIC" IdxPrGroup="0" CleanResult="true" SearchTextFound="false">
+                <CleanPattern>
+                  <![CDATA[<span class="sp">|</span>]]>
+                </CleanPattern>
+                <TextFoundPatter>
+                  <![CDATA[""]]>
+                </TextFoundPatter>
+                <TextFoundNormPatter>
+                  <![CDATA[\+|%20]]>
+                </TextFoundNormPatter>
+                <TextFoundNormReplace>
+                  <![CDATA[ ]]>
+                </TextFoundNormReplace>
+
+                <RegularEx>
+                  <![CDATA[class="SEP PRON-before"> /</span>(.+)<span class="SEP PRON-after"]]>
+                </RegularEx>
+              </PrPattern>
+            </Patterns>
+        </PrSite>
+      </Sites>
+    </Pronunciation>
+    
+    <Translation>
+          <Sites>
+            <TrSite>
+                <Url><![CDATA[http://context.reverso.net/traduccion/ingles-espanol/]]></Url>
+                <Patterns>
+                    <TrPattern Lang="GENERIC" Type="GENERIC" IdxTrGroup="1" IdxTrTypeGroup="2" CleanTypeResult="true" SearchTextFound="true">
+                      <TextFoundPatter>
+                        <![CDATA[reversocontext://context.reverso.net/traduccion/ingles-espanol/([^"]+)"]]> 
+                      </TextFoundPatter>
+                      <CleanTypePattern>
+                        <![CDATA[\([^)]*\)]]>
+                      </CleanTypePattern>
+                      <TextFoundNormPatter>
+                        <![CDATA[\+|%20]]>
+                      </TextFoundNormPatter>
+                      <TextFoundNormReplace>
+                        <![CDATA[ ]]>
+                      </TextFoundNormReplace>
+
+                      <RegularEx>
+                        <![CDATA[<em class='translation'>([^<]+)</em><br>([^<]*)<]]>
+                      </RegularEx>
+                    
+                  </TrPattern>
+                  </Patterns>
+            </TrSite>     
+            
+            <TrSite>
+                <Url><![CDATA[https://es.oxforddictionaries.com/traducir/ingles-espanol/]]></Url>
+                <Patterns>
+                  <TrPattern Lang="GENERIC" Type="GENERIC" IdxTrGroup="1" IdxTrTypeGroup="-1" CleanTypeResult="true" SearchTextFound="false">
+                    <RegularEx>
+                      <![CDATA[class="tr"><span>([^<]+)<]]>
+                    </RegularEx>
+                    <TextFoundPatter>
+                      <![CDATA[""]]>
+                    </TextFoundPatter>
+                    <TextFoundNormPatter>
+                      <![CDATA[\+|%20]]>
+                    </TextFoundNormPatter>
+                    <TextFoundNormReplace>
+                      <![CDATA[ ]]>
+                    </TextFoundNormReplace>
+
+                    <CleanTypePattern>
+                      <![CDATA[\([^)]*\)]]>
+                    </CleanTypePattern>
+                  </TrPattern>
+                </Patterns>
+            </TrSite>
+          </Sites>
+    </Translation>
+</DictionaryConfig>

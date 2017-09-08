@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocationLangStore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://location_eng.com">
+  <LangId>eng</LangId>
+  
+  <LangTags>
+  
+	<LocationLangTag>
+      <IdTag>APP_NAME_TAG</IdTag>
+      <Text><![CDATA[ENG->SPA v1.0.beta]]></Text>
+    </LocationLangTag>
+
+    <LocationLangTag>
+      <IdTag>SEARCHING_INFO</IdTag>
+      <Text><![CDATA[Searching...]]></Text>
+    </LocationLangTag>
+
+    <LocationLangTag>
+     <IdTag>APP_HELP_TIP</IdTag>
+     <Text><![CDATA[Type a simple word like gold
+ or compose words like take off.]]></Text>
+    </LocationLangTag>		
+	
+    <LocationLangTag>
+      <IdTag>TAG_DICT_TEXT_FOUND</IdTag>
+      <Text><![CDATA[>>Search Found!!]]></Text>
+    </LocationLangTag>
+    
+    <LocationLangTag>
+      <IdTag>TAG_DICT_TEXT_NOT_FOUND</IdTag>
+      <Text><![CDATA[>>Search not Found: {0}]]></Text>
+    </LocationLangTag>
+    
+    <LocationLangTag>
+      <IdTag>TAG_DICT_RESUME_DATA</IdTag>
+      <Text><![CDATA[>>Total word/s saved: {0}]]></Text>
+    </LocationLangTag>
+
+    <LocationLangTag>
+      <IdTag>ERROR_LOAD_LANG_TAGS</IdTag>
+      <Text><![CDATA[>>Error loading language TAGS, loaded defaulf tags]]></Text>
+    </LocationLangTag>
+
+    <LocationLangTag>
+      <IdTag>SEARCHING_DICT_TEXT</IdTag>
+      <Text><![CDATA[>>Searching word/s: ]]></Text>
+    </LocationLangTag>
+
+    <LocationLangTag>
+      <IdTag>ERROR_LOAD_DICT_WEB_CONFIG</IdTag>
+      <Text><![CDATA[>>Web dictionary searches disable, error loading configuration]]></Text>
+    </LocationLangTag>    
+
+    <LocationLangTag>
+      <IdTag>STATUS_OK_MSG</IdTag>
+      <Text><![CDATA[>>Status, OK]]></Text>
+    </LocationLangTag>    
+	
+    <LocationLangTag>
+      <IdTag>SEARCH_LABEL</IdTag>
+      <Text><![CDATA[Search]]></Text>
+    </LocationLangTag>    
+
+	<LocationLangTag>
+      <IdTag>SEARCHING_SITE</IdTag>
+      <Text><![CDATA[>>Url site: ]]></Text>
+    </LocationLangTag>    
+
+	<LocationLangTag>
+     <IdTag>SEARCHING_PR</IdTag>
+      <Text><![CDATA[>>Consulting pronunciation... ]]></Text>
+    </LocationLangTag>    
+
+	<LocationLangTag>
+     <IdTag>SEARCHING_TR</IdTag>
+      <Text><![CDATA[>>Consulting translation.. ]]></Text>
+    </LocationLangTag>    
+
+	<LocationLangTag>
+     <IdTag>LOCAL_DICT_WORD_NOT_FOUND</IdTag>
+      <Text><![CDATA[>>Word/s not found/s in local dictionary]]></Text>
+    </LocationLangTag>    
+
+	<LocationLangTag>
+     <IdTag>LOCAL_DICT_WORD_FAIL</IdTag>
+      <Text><![CDATA[>>Error searching in local dictionary]]></Text>
+    </LocationLangTag>    
+
+	<LocationLangTag>
+     <IdTag>WEB_DICT_FAIL</IdTag>
+      <Text><![CDATA[>>Error searching web dictionaries]]></Text>
+    </LocationLangTag>
+
+	<LocationLangTag>
+     <IdTag>LOCAL_DICT_WORD_FOUND</IdTag>
+      <Text><![CDATA[>>Word/s found/s in local dictionary]]></Text>
+    </LocationLangTag>
+	
+	<LocationLangTag>
+     <IdTag>WEB_DICT_SEARCH</IdTag>
+      <Text><![CDATA[>>Consulting web dictionaries...]]></Text>
+    </LocationLangTag>
+
+	<LocationLangTag>
+     <IdTag>DICTIONARY_INFO</IdTag>
+      <Text><![CDATA[>>Local dictionary file: ]]></Text>
+    </LocationLangTag>
+
+    <LocationLangTag>
+      <IdTag>RUNTIME_ERROR_TAG</IdTag>
+      <Text><![CDATA[Fail searching word/s, please try again]]></Text>
+    </LocationLangTag>
+
+    <LocationLangTag>
+      <IdTag>TIME_OUT_ERROR</IdTag>
+      <Text><![CDATA[Time out searching word/s in dictionary, maybe network signal is not good]]></Text>
+    </LocationLangTag>
+
+    <LocationLangTag>
+      <IdTag>INIT_APPLICATION_ERROR</IdTag>
+      <Text><![CDATA[Init application fail, please close and launch it again or reinstall]]></Text>
+    </LocationLangTag>
+
+    <LocationLangTag>
+      <IdTag>WEAK_NETWORK_SIGNAL</IdTag>
+      <Text><![CDATA[Poor network signal, trying again]]></Text>
+    </LocationLangTag>
+
+  </LangTags>
+</LocationLangStore>
